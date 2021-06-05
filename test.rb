@@ -1,5 +1,6 @@
 #class definition
 class Dog 
+<<<<<<< HEAD
   attr_accessor :name, :hair, :color
   attr_reader :gender   #gender reading from instance vaiable from gender
   attr_writer: :last_meal #last_meal=
@@ -47,10 +48,26 @@ class Baby
   def cry 
     puts "WAAAAA!!!!!!!"
   end
+=======
+    def bark
+      puts "Woof!!!"
+    end
+    
+    #write the property of a dog name
+    def name=(the_name_of_the_dog)
+      @the_name = the_name_of_the_dog
+    end
+    
+    #read the property of a dog name
+    def name
+       @the_name
+    end
+>>>>>>> 5d59de1968e26ea8910e07e890329331d0f9d80a
 end
 
 
 
+<<<<<<< HEAD
 #1. Make them cry when they are born 
 #2. Give them a name (reader and writer)
 #3. Make them cry through method cry
@@ -82,6 +99,8 @@ class Baby
 end
 
 
+=======
+>>>>>>> 5d59de1968e26ea8910e07e890329331d0f9d80a
 foo.bark #=> "Woof!!!"
 
 foo.name =  "FooDog"
